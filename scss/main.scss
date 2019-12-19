@@ -1,4 +1,14 @@
+/*
+  Sass Workflow setup 
+  initialize npm: npm init
+  answer questions like description, Author and liscence
+  install sass : "npm install node-sass"
+  in package.json go to scripts and change 'test' to 'sass' and give it the value: "node-sass -w scss/ -o dist/css/ --recursive"
+  in terminal run this everytime you want to use it: "npm run sass"
+*/
+
 @import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
